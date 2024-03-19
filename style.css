@@ -97,8 +97,20 @@ footer h2{
 .ext-link a{
     display: inline-block;
     margin: 10px 25px 10px 0;
-    color: white;
+    color: darkgray;
     text-decoration: none;
+}
+
+.ext-link h4{
+    display: inline-block;
+    margin: 10px 25px 10px 0;
+    color: darkgray;
+    text-decoration: none;
+}
+
+
+.ext-link a:hover{
+    color: white;
 }
 
 .container{
@@ -149,16 +161,19 @@ button:hover{
 }
 
 .wrap p{
-    margin-top: 70px;
+    margin-top: 100px;
+    font-family: sans-serif;
 }
 
 .wrap img{
     width: 50%;
-    margin-top: 70;
+    margin-top: 60px;
     margin-right: 8px;
+    margin-left: 8px;
 }
 
 .aboutUs{
     background-color: lightgray;
 }
+
 
